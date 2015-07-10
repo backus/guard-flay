@@ -1,10 +1,13 @@
 require 'guard/compat/plugin'
+require 'guard'
 
 module Guard
   class Flay < Plugin
     autoload :Processor, 'guard/flay/processor'
 
-    def start; end
+    def start
+      ::Guard::UI.info 'Guard::Flay is running'
+    end
 
     def reload; end
 
