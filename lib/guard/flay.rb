@@ -1,8 +1,7 @@
-require 'guard'
-require 'guard/guard'
+require 'guard/compat/plugin'
 
 module Guard
-  class Flay < Guard
+  class Flay < Plugin
     autoload :Processor, 'guard/flay/processor'
 
     def start; end

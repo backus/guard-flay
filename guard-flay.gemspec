@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.required_rubygems_version = '>= 2.0.6'
   spec.rubyforge_project         = 'guard-flay'
 
-  spec.add_dependency 'guard', '>= 1.8'
+  spec.add_dependency 'guard-compat', '~> 1.1'
   spec.add_dependency 'flay', '~> 2.5.0'
   spec.add_dependency 'flay-haml', '~> 0.0.3'
 
