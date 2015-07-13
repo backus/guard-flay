@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.rubyforge_project         = 'guard-flay'
 
   spec.add_dependency 'guard-compat', '~> 1.1'
-  spec.add_dependency 'flay', '~> 2.5.0'
+  spec.add_dependency 'flay', '~> 2.6'
   spec.add_dependency 'flay-haml', '~> 0.0.3'
 
   spec.add_development_dependency "bundler", "~> 1.3"
